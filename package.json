@@ -1,8 +1,13 @@
 {
-  "name": "autoreply-debug",
+  "name": "autoreply-proxy",
   "version": "1.0.0",
+  "description": "Proxy para capturar requests do AutoReply e encaminhar para servidor real",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
+    "axios": "^1.6.0",
     "express": "^4.18.2"
   }
 }
